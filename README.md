@@ -36,8 +36,8 @@ All generation and embedding runs locally on your machine, ensuring 100% data pr
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/rag-from-scratch.git
-   cd rag-from-scratch
+   git clone https://github.com/yourusername/vanilla-rag.git
+   cd vanilla-rag
    ```
 
 2. **Set up the environment with `uv`:**
@@ -53,7 +53,7 @@ All generation and embedding runs locally on your machine, ensuring 100% data pr
    cp .env.example .env
    ```
 
-   _Edit `.env` to include your `HF_TOKEN=hf_...`_
+   _Edit `.env` to include your `HF_TOKEN=hf_...`\_
 
 4. **Run the Application:**
    ```bash
